@@ -223,11 +223,11 @@
     if (pressedDown) {
         switch (buttonIdentifier) {
             case kRemoteButtonRight:
-                NSLog(@"Remote: next location");
+                [mainWC goToNextLocation:self];
                 break;
                 
             case kRemoteButtonLeft:
-                NSLog(@"Remote: previous location");
+                [mainWC goToPreviousLocation:self];
                 break;
                 
             default:
