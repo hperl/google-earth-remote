@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E26450B14026CA200FEA556 /* MainWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E26450A14026CA200FEA556 /* MainWC.m */; };
+		2E54573C14024CA1002A22A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54573B14024CA1002A22A1 /* Cocoa.framework */; };
+		2E54574614024CA1002A22A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E54574414024CA1002A22A1 /* InfoPlist.strings */; };
+		2E54574814024CA1002A22A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54574714024CA1002A22A1 /* main.m */; };
+		2E54574C14024CA1002A22A1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2E54574A14024CA1002A22A1 /* Credits.rtf */; };
+		2E54574F14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54574E14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.m */; };
+		2E54575214024CA1002A22A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E54575014024CA1002A22A1 /* MainMenu.xib */; };
+		2E54575514024CA1002A22A1 /* Google_Earth_Remote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E54575314024CA1002A22A1 /* Google_Earth_Remote.xcdatamodeld */; };
+		2E54576014024CD3002A22A1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54575F14024CD3002A22A1 /* Quartz.framework */; };
+		2E54576214024CDC002A22A1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54576114024CDC002A22A1 /* IOKit.framework */; };
+		2E54577814024E1F002A22A1 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54577114024E1F002A22A1 /* AppleRemote.m */; };
+		2E54577914024E1F002A22A1 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54577314024E1F002A22A1 /* HIDRemoteControlDevice.m */; };
+		2E54577A14024E1F002A22A1 /* MultiClickRemoteBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54577514024E1F002A22A1 /* MultiClickRemoteBehavior.m */; };
+		2E54577B14024E1F002A22A1 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54577714024E1F002A22A1 /* RemoteControl.m */; };
+		2E54578514026B69002A22A1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E54578414026B69002A22A1 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E26450914026CA200FEA556 /* MainWC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWC.h; sourceTree = "<group>"; };
+		2E26450A14026CA200FEA556 /* MainWC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWC.m; sourceTree = "<group>"; };
+		2E54573714024CA1002A22A1 /* Google Earth Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Earth Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E54573B14024CA1002A22A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2E54573E14024CA1002A22A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2E54573F14024CA1002A22A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E54574014024CA1002A22A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E54574314024CA1002A22A1 /* Google Earth Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Google Earth Remote-Info.plist"; sourceTree = "<group>"; };
+		2E54574514024CA1002A22A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E54574714024CA1002A22A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E54574914024CA1002A22A1 /* Google Earth Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Google Earth Remote-Prefix.pch"; sourceTree = "<group>"; };
+		2E54574B14024CA1002A22A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2E54574D14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Google_Earth_RemoteAppDelegate.h; sourceTree = "<group>"; };
+		2E54574E14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_Earth_RemoteAppDelegate.m; sourceTree = "<group>"; };
+		2E54575114024CA1002A22A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2E54575414024CA1002A22A1 /* Google_Earth_Remote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Earth_Remote.xcdatamodel; sourceTree = "<group>"; };
+		2E54575F14024CD3002A22A1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2E54576114024CDC002A22A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2E54577014024E1F002A22A1 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		2E54577114024E1F002A22A1 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		2E54577214024E1F002A22A1 /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		2E54577314024E1F002A22A1 /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		2E54577414024E1F002A22A1 /* MultiClickRemoteBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiClickRemoteBehavior.h; sourceTree = "<group>"; };
+		2E54577514024E1F002A22A1 /* MultiClickRemoteBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiClickRemoteBehavior.m; sourceTree = "<group>"; };
+		2E54577614024E1F002A22A1 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		2E54577714024E1F002A22A1 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		2E54578414026B69002A22A1 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E54573414024CA1002A22A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54576214024CDC002A22A1 /* IOKit.framework in Frameworks */,
+				2E54576014024CD3002A22A1 /* Quartz.framework in Frameworks */,
+				2E54573C14024CA1002A22A1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E54572C14024CA0002A22A1 = {
+			isa = PBXGroup;
+			children = (
+				2E54576114024CDC002A22A1 /* IOKit.framework */,
+				2E54575F14024CD3002A22A1 /* Quartz.framework */,
+				2E54574114024CA1002A22A1 /* Google Earth Remote */,
+				2E54573A14024CA1002A22A1 /* Frameworks */,
+				2E54573814024CA1002A22A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E54573814024CA1002A22A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E54573714024CA1002A22A1 /* Google Earth Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E54573A14024CA1002A22A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E54573B14024CA1002A22A1 /* Cocoa.framework */,
+				2E54573D14024CA1002A22A1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E54573D14024CA1002A22A1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E54573E14024CA1002A22A1 /* AppKit.framework */,
+				2E54573F14024CA1002A22A1 /* CoreData.framework */,
+				2E54574014024CA1002A22A1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2E54574114024CA1002A22A1 /* Google Earth Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2E54578414026B69002A22A1 /* MainWindow.xib */,
+				2E26450914026CA200FEA556 /* MainWC.h */,
+				2E26450A14026CA200FEA556 /* MainWC.m */,
+				2E54576F14024E1F002A22A1 /* Remote */,
+				2E54574D14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.h */,
+				2E54574E14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.m */,
+				2E54575014024CA1002A22A1 /* MainMenu.xib */,
+				2E54575314024CA1002A22A1 /* Google_Earth_Remote.xcdatamodeld */,
+				2E54574214024CA1002A22A1 /* Supporting Files */,
+			);
+			path = "Google Earth Remote";
+			sourceTree = "<group>";
+		};
+		2E54574214024CA1002A22A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E54574314024CA1002A22A1 /* Google Earth Remote-Info.plist */,
+				2E54574414024CA1002A22A1 /* InfoPlist.strings */,
+				2E54574714024CA1002A22A1 /* main.m */,
+				2E54574914024CA1002A22A1 /* Google Earth Remote-Prefix.pch */,
+				2E54574A14024CA1002A22A1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E54576F14024E1F002A22A1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2E54577014024E1F002A22A1 /* AppleRemote.h */,
+				2E54577114024E1F002A22A1 /* AppleRemote.m */,
+				2E54577214024E1F002A22A1 /* HIDRemoteControlDevice.h */,
+				2E54577314024E1F002A22A1 /* HIDRemoteControlDevice.m */,
+				2E54577414024E1F002A22A1 /* MultiClickRemoteBehavior.h */,
+				2E54577514024E1F002A22A1 /* MultiClickRemoteBehavior.m */,
+				2E54577614024E1F002A22A1 /* RemoteControl.h */,
+				2E54577714024E1F002A22A1 /* RemoteControl.m */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E54573614024CA1002A22A1 /* Google Earth Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E54575814024CA1002A22A1 /* Build configuration list for PBXNativeTarget "Google Earth Remote" */;
+			buildPhases = (
+				2E54573314024CA1002A22A1 /* Sources */,
+				2E54573414024CA1002A22A1 /* Frameworks */,
+				2E54573514024CA1002A22A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Earth Remote";
+			productName = "Google Earth Remote";
+			productReference = 2E54573714024CA1002A22A1 /* Google Earth Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E54572E14024CA0002A22A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2E54573114024CA0002A22A1 /* Build configuration list for PBXProject "Google Earth Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E54572C14024CA0002A22A1;
+			productRefGroup = 2E54573814024CA1002A22A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E54573614024CA1002A22A1 /* Google Earth Remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E54573514024CA1002A22A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54574614024CA1002A22A1 /* InfoPlist.strings in Resources */,
+				2E54574C14024CA1002A22A1 /* Credits.rtf in Resources */,
+				2E54575214024CA1002A22A1 /* MainMenu.xib in Resources */,
+				2E54578514026B69002A22A1 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E54573314024CA1002A22A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54574814024CA1002A22A1 /* main.m in Sources */,
+				2E54574F14024CA1002A22A1 /* Google_Earth_RemoteAppDelegate.m in Sources */,
+				2E54575514024CA1002A22A1 /* Google_Earth_Remote.xcdatamodeld in Sources */,
+				2E54577814024E1F002A22A1 /* AppleRemote.m in Sources */,
+				2E54577914024E1F002A22A1 /* HIDRemoteControlDevice.m in Sources */,
+				2E54577A14024E1F002A22A1 /* MultiClickRemoteBehavior.m in Sources */,
+				2E54577B14024E1F002A22A1 /* RemoteControl.m in Sources */,
+				2E26450B14026CA200FEA556 /* MainWC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E54574414024CA1002A22A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E54574514024CA1002A22A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E54574A14024CA1002A22A1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E54574B14024CA1002A22A1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2E54575014024CA1002A22A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E54575114024CA1002A22A1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E54575614024CA1002A22A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E54575714024CA1002A22A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E54575914024CA1002A22A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Google Earth Remote/Google Earth Remote-Prefix.pch";
+				INFOPLIST_FILE = "Google Earth Remote/Google Earth Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E54575A14024CA1002A22A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Google Earth Remote/Google Earth Remote-Prefix.pch";
+				INFOPLIST_FILE = "Google Earth Remote/Google Earth Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E54573114024CA0002A22A1 /* Build configuration list for PBXProject "Google Earth Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E54575614024CA1002A22A1 /* Debug */,
+				2E54575714024CA1002A22A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E54575814024CA1002A22A1 /* Build configuration list for PBXNativeTarget "Google Earth Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E54575914024CA1002A22A1 /* Debug */,
+				2E54575A14024CA1002A22A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E54575314024CA1002A22A1 /* Google_Earth_Remote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E54575414024CA1002A22A1 /* Google_Earth_Remote.xcdatamodel */,
+			);
+			currentVersion = 2E54575414024CA1002A22A1 /* Google_Earth_Remote.xcdatamodel */;
+			path = Google_Earth_Remote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E54572E14024CA0002A22A1 /* Project object */;
+}
